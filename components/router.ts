@@ -7,3 +7,5 @@ export const Playfair = "/MaHoaCoDien/Playfair";
 export const RailFence = "/MaHoaCoDien/RailFence";
 
 export const Modulo = "/MODULO";
+
+export const DESCipher = "/DESCipher";

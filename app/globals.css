@@ -1,10 +1,5 @@
 @import "tailwindcss";
 
-:root {
-    --background: #ffffff;
-    --foreground: #171717;
-}
-
 @theme inline {
     --color-background: var(--background);
     --color-foreground: var(--foreground);
@@ -12,12 +7,24 @@
     --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+:root {
+    /* Set nền mặc định là xám nhạt để tone-sur-tone với bg-gradient của bro */
+    --background: #f3f4f6;
+    /* Chữ mặc định là xám đậm/đen */
+    --foreground: #1f2937;
+}
+
+/* TẠM THỜI TẮT DARK MODE TỰ ĐỘNG
+   Vì component React chưa có các class dành riêng cho dark mode (ví dụ: dark:bg-gray-800), 
+   nên comment đoạn này lại để máy tính ở Dark Mode cũng không làm hỏng màu page. */
+
+/* @media (prefers-color-scheme: dark) {
     :root {
-        --background: #0a0a0a;
+        --background: #171717;
         --foreground: #ededed;
     }
-}
+} 
+*/
 
 body {
     background: var(--background);

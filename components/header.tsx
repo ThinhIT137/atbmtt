@@ -11,6 +11,7 @@ import {
     Playfair,
     RailFence,
     Modulo,
+    DESCipher,
 } from "./router";
 
 // --- DỮ LIỆU DROPDOWN ---
@@ -140,6 +141,12 @@ export default function Header() {
                             className="text-gray-700 hover:text-blue-600 font-semibold py-2 transition-colors duration-200"
                         >
                             Modulo
+                        </Link>
+                        <Link
+                            href={DESCipher}
+                            className="text-gray-700 hover:text-blue-600 font-semibold py-2 transition-colors duration-200"
+                        >
+                            DES
                         </Link>
                     </nav>
 
