@@ -13,7 +13,8 @@ export default function Home() {
                 </h1>
                 {/* Subtitle */}
                 <p className="text-gray-300 text-sm sm:text-base">
-                    Công cụ tính toán & mô phỏng các thuật toán mã hóa cổ điển
+                    Công cụ tính toán & mô phỏng các thuật toán mã hóa cổ điển,
+                    mã hóa công khai, AES, DES
                 </p>
                 {/* Author */}
                 <p className="text-gray-400 text-xs sm:text-sm italic">
