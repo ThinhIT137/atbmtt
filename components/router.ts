@@ -5,3 +5,5 @@ export const Vigenere_AutoKey = "/MaHoaCoDien/Vigenere_AutoKey";
 export const Monoalphabetic = "/MaHoaCoDien/Monoalphabetic";
 export const Playfair = "/MaHoaCoDien/Playfair";
 export const RailFence = "/MaHoaCoDien/RailFence";
+
+export const Modulo = "/MODULO";

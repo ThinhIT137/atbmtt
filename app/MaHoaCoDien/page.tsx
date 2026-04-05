@@ -51,7 +51,7 @@ const algorithms = [
     },
 ];
 
-const colorClasses = {
+const colorClasses: Record<string, string> = {
     blue: "hover:bg-blue-50 hover:border-blue-400 group-hover:text-blue-600",
     green: "hover:bg-green-50 hover:border-green-400 group-hover:text-green-600",
     purple: "hover:bg-purple-50 hover:border-purple-400 group-hover:text-purple-600",
@@ -87,7 +87,7 @@ const MaHoaCoDien = () => {
                         <div
                             key={index}
                             onClick={() => go(algo.path)}
-                            className={`p-4 rounded-xl border cursor-pointer transition group ${colorClasses[algo.color]}`}
+                            className={`p-4 rounded-xl border cursor-pointer transition group ${colorClasses[algo.color as keyof typeof colorClasses]}`}
                         >
                             <h2 className="font-semibold text-lg text-gray-800">
                                 {algo.name}
