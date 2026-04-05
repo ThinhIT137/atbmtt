@@ -257,6 +257,13 @@ export default function Header() {
                     >
                         Modulo
                     </Link>
+                    <Link
+                        href={DESCipher}
+                        onClick={handleLinkClick}
+                        className="block font-semibold text-gray-700 hover:text-blue-600 py-3 border-b border-gray-50"
+                    >
+                        DES
+                    </Link>
                 </div>
             </div>
         </header>
